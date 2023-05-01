@@ -1,0 +1,109 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}% juste utile ici pour générer du faux texte}
+\usepackage{mwe}%juste utile ici pour générer de fausses images
+\usepackage{amsmath,amsfonts,amssymb}%extensions de l'ams pour les mathématiques
+\usepackage{shorttoc}%pour la réalisation d'un sommaire
+\usepackage{tikz}
+\usepackage{tabularx,color,colortbl}
+\definecolor{MPL1}{rgb}{0.89411765, 0.10196078, 0.10980392}
+\definecolor{MPL2}{rgb}{0.21568627, 0.49411765, 0.72156863}
+\definecolor{MPL3}{rgb}{0.30196078, 0.68627451, 0.29019608}
+\definecolor{MPL4}{rgb}{0.59607843, 0.30588235, 0.63921569}
+\usepackage{floatrow}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+\node[shape=circle,fill=orange!80!yellow,draw,inner sep=1pt,font=\bfseries] (char) {#1};}}
+\floatsetup[table]{capposition=top}
+\usepackage[first=0,last=9]{lcg}
+\newcommand{\ra}{\rand0.\arabic{rand}}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage[left=2.5cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissement
+\usepackage[Bjornstrup]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+\usepackage{fancyhdr}%pour les en-têtes et pieds de pages
+\setlength{\headheight}{14.2pt}% hauteur de l'en-tête
+
+%%%%%%%%%%%%%%%%%%%style front%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\fancypagestyle{front}{%
+	\fancyhf{}%on vide les en-têtes
+	\fancyfoot[C]{page \thepage}%
+	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'en-tête
+	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+}
+%%%%%%%%%%%%%%%%%%%style main%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancypagestyle{main}{%
+	\fancyhf{}
+	%\renewcommand{\CTV}{\fontfamily{phv}\selectfont\Huge \scshape}
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ ##1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection\ ##1}}
+	\fancyhead[c]{}
+	\fancyhead[RO,LE]{\rightmark}%
+	\fancyhead[LO,RE]{}
+	\fancyfoot[C]{}
+	\fancyfoot[RO,LE]{page \thepage}%
+	\fancyfoot[LO,RE]{\leftmark}
+}
+%%%%%%%%%%%%%%%%%%%style back%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\fancypagestyle{back}{%
+	\fancyhf{}%on vide les en-têtes
+	\fancyfoot[C]{page \thepage}%
+	\renewcommand{\headrulewidth}{0.4pt}%trait horizontal pour l'en-tête
+	\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%index%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{makeidx}
+\makeindex
+\usepackage[english]{babel}%pour un document en français
+\usepackage{listings}%pour insérer du code source
+\usepackage{hyperref}%rend actif les liens, références croisées, toc…
+\hypersetup{colorlinks,%
+	citecolor=black,%
+	filecolor=black,%
+	linkcolor=black,%
+	urlcolor=black} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%biblio%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[style=chem-acs,sorting=none,backend=bibtex]{biblatex}
+\AtEveryBibitem{%
+	\clearfield{note}%
+}
+\addbibresource{references/refs.bib}% pour indiquer où se trouve notre .bib
+\usepackage{csquotes}% pour la gestion des guillemets français.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%glossaire%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{glossaries}
+\makeglossaries         
+
+\makeatletter
+\newenvironment{abstract}{%
+	\cleardoublepage
+	\null\vfil
+	\@beginparpenalty\@lowpenalty
+	\begin{center}%
+		\bfseries \abstractname
+		\@endparpenalty\@M
+\end{center}}%
+{\par\vfil\null}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\fig}[3]{\begin{figure}[h!]
+	\centering
+	\includegraphics[width = #2\linewidth]{#1}
+	\caption{#3}
+\end{figure}}
+
+\usepackage{xcolor}
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\blue}[1]{{\color{blue}#1}}
+\newcommand{\green}[1]{{\color{green}#1}}
+
+\newcommand{\black}[1]{{\color{black}#1}}
+
+\newcommand{\vv}[1]{\vec{#1}}
+
+% fancy verbatim :
+\usepackage{fancyvrb}
+\newcommand{\vrb}[1]{\begin{Verbatim}[commandchars=\\\{\}]
+#1
+\end{Verbatim}}

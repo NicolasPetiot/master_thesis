@@ -1,0 +1,990 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.8)  26 APR 2023 15:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./front.tex
+(front.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.3 	\bfseries\Large
+                     Master 2 Physics Photonics Nanotechnology \hspace*{\str...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 	\bfseries\Large M
+                      aster 2 Physics Photonics Nanotechnology \hspace*{\str...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (35.52202pt too wide) in paragraph at lines 3--5
+[]\OT1/cmr/bx/n/10 Master
+ []
+
+
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 2
+ []
+
+
+Overfull \hbox (37.37755pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 Physics
+ []
+
+
+Overfull \hbox (23.8332pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 Pho-
+ []
+
+
+Overfull \hbox (20.44434pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 ton-
+ []
+
+
+Overfull \hbox (12.84158pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 ics
+ []
+
+
+Overfull \hbox (24.81235pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 Nan-
+ []
+
+
+Overfull \hbox (30.50679pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 otech-
+ []
+
+
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 nol-
+ []
+
+
+Overfull \hbox (17.56935pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 ogy
+ []
+
+
+Overfull \hbox (29.38873pt too wide) in paragraph at lines 3--5
+|  \OT1/cmr/bx/n/10 2022-
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 3--5
+\OT1/cmr/bx/n/10 2023
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 	\begin{center}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.7 		\includegraphics
+                      [height=3cm]{images/logo_ub.png}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 		\includegraphics[height=3cm]{images/logo_
+                                               ub.png}%
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+! Extra }, or forgotten $.
+l.7 ...udegraphics[height=3cm]{images/logo_ub.png}
+                                                  %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.9 		\includegraphics
+                      [height=4cm]{images/logo_ubfc.png}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 	\end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 	\end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 	\end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 	\end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 	\end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (197.19936pt too wide) in paragraph at lines 7--13
+\OT1/cmr/bx/n/10 [height=3cm]images/logo$[]\OML/cmm/m/it/10 b:png \OT1/cmr/m/n/
+10 [\OML/cmm/m/it/10 height \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.63177pt too wide) in paragraph at lines 7--13
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 cm\OT1/cmr/m/n/10 ][]$
+ []
+
+! Undefined control sequence.
+l.15 		\bfseries\huge
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (52.75664pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 Functional 
+ []
+
+
+Overfull \hbox (31.84843pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 modes 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 and 
+ []
+
+
+Overfull \hbox (24.70128pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 ther- 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 mal 
+ []
+
+
+Overfull \hbox (12.01382pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 B- 
+ []
+
+
+Overfull \hbox (29.17345pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 factor 
+ []
+
+
+Overfull \hbox (20.22908pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 pre- 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 dic- 
+ []
+
+
+Overfull \hbox (24.34152pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 tions 
+ []
+
+
+Overfull \hbox (13.99994pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 for 
+ []
+
+
+Overfull \hbox (30.34706pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 multi- 
+ []
+
+
+Overfull \hbox (25.71515pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 genic 
+ []
+
+
+Overfull \hbox (29.07762pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 struc- 
+ []
+
+
+Overfull \hbox (24.3818pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 tural 
+ []
+
+
+Overfull \hbox (24.59705pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 anal- 
+ []
+
+
+Overfull \hbox (9.90273pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 y- 
+ []
+
+
+Overfull \hbox (12.26657pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 sis 
+ []
+
+
+Overfull \hbox (20.22908pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 pre- 
+ []
+
+
+Overfull \hbox (30.82623pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 dicted 
+ []
+
+
+Overfull \hbox (23.58322pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 from 
+ []
+
+
+Overfull \hbox (15.72214pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 Al- 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 pha 
+ []
+
+
+Overfull \hbox (21.611pt too wide) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/10 Fold 
+ []
+
+! Undefined control sequence.
+l.22 		\bfseries\Large
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (36.37616pt too wide) in paragraph at lines 23--24
+ \OT1/cmr/bx/n/10 Nicolas 
+ []
+
+
+Overfull \hbox (44.41641pt too wide) in paragraph at lines 23--24
+ \OT1/cmr/bx/n/10 PETIOT 
+ []
+
+! Undefined control sequence.
+l.27 		\normalfont \today
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 		\bfseries\Large
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (61.5094pt too wide) in paragraph at lines 33--34
+ []$\OT1/cmr/bx/n/10 : 
+ []
+
+
+Overfull \hbox (16.74992pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 Dr. 
+ []
+
+
+Overfull \hbox (34.67345pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 Adrien 
+ []
+
+
+Overfull \hbox (50.2775pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 NICOLA[]I 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 and 
+ []
+
+
+Overfull \hbox (15.7916pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 Pr. 
+ []
+
+
+Overfull \hbox (36.39563pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 Patrick 
+ []
+
+
+Overfull \hbox (38.49979pt too wide) in paragraph at lines 33--34
+ \OT1/cmr/bx/n/10 SENET 
+ []
+
+! Undefined control sequence.
+l.38 		\bfseries\Large
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (93.19394pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 NANOSCIENCES 
+ []
+
+
+Overfull \hbox (17.92352pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 De- 
+ []
+
+
+Overfull \hbox (25.02069pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 part- 
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 ment 
+ []
+
+
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 - 
+ []
+
+
+Overfull \hbox (37.37755pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 Physics 
+ []
+
+
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 Ap- 
+ []
+
+
+Overfull \hbox (24.43738pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 plied 
+ []
+
+
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 to 
+ []
+
+
+Overfull \hbox (22.18045pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 Pro- 
+ []
+
+
+Overfull \hbox (23.86237pt too wide) in paragraph at lines 39--40
+ \OT1/cmr/bx/n/10 teins 
+ []
+
+! Undefined control sequence.
+l.44 		\normalfont \large
+                          Laboratoire Interdisciplinaire Carnot de Bourgogne...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (51.02791pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 Laboratoire 
+ []
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 In- 
+ []
+
+
+Overfull \hbox (15.58334pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 ter- 
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 dis- 
+ []
+
+
+Overfull \hbox (10.55556pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 ci- 
+ []
+
+
+Overfull \hbox (32.80563pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 plinaire 
+ []
+
+
+Overfull \hbox (30.5834pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 Carnot 
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 de 
+ []
+
+
+Overfull \hbox (24.88895pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 Bour- 
+ []
+
+
+Overfull \hbox (27.77785pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 gogne, 
+ []
+
+
+Overfull \hbox (24.02782pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 UMR 
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 6303 
+ []
+
+
+Overfull \hbox (27.63893pt too wide) in paragraph at lines 44--44
+ \OT1/cmr/m/n/10 CNRS 
+ []
+
+
+Overfull \hbox (44.25008pt too wide) in paragraph at lines 45--45
+ []\OT1/cmr/m/n/10 Universit^^Se 
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 de 
+ []
+
+
+Overfull \hbox (24.88895pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Bour- 
+ []
+
+
+Overfull \hbox (25.00006pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 gogne 
+ []
+
+
+Overfull \hbox (37.66672pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Franche- 
+ []
+
+
+Overfull \hbox (28.61116pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Comt^^Se 
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 / 
+ []
+
+
+Overfull \hbox (18.47224pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Fac- 
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 ult^^Se 
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 des 
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Sci- 
+ []
+
+
+Overfull \hbox (22.83334pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 ences 
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 et 
+ []
+
+
+Overfull \hbox (23.88889pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Tech- 
+ []
+
+
+Overfull \hbox (27.5556pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 niques 
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 Mi- 
+ []
+
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 45--45
+ \OT1/cmr/m/n/10 rande 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...ulté des Sciences et Techniques Mirande\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/Stage/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 46--47
+ []\OT1/cmr/m/n/10 9, 
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 Av. 
+ []
+
+
+Overfull \hbox (29.19453pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 Savary 
+ []
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 - 
+ []
+
+
+Overfull \hbox (18.61116pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 B.P. 
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 47 
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 870 
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 21078. 
+ []
+
+
+Overfull \hbox (14.58334pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 DI- 
+ []
+
+
+Overfull \hbox (20.41672pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 JON 
+ []
+
+
+Overfull \hbox (35.97229pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 CEDEX 
+ []
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 - 
+ []
+
+
+Overfull \hbox (29.0556pt too wide) in paragraph at lines 46--47
+ \OT1/cmr/m/n/10 France 
+ []
+
+! Undefined control sequence.
+l.51 	\includegraphics
+                      [height=2cm]{images/logo_icb.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 	\includegraphics[height=2cm]{images/logo_
+                                               icb.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.51 ...egraphics[height=2cm]{images/logo_icb.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.53 	\includegraphics
+                      [height=2cm]{images/logo_cnrs.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 	\includegraphics
+                      [height=2cm]{images/logo_eiphi.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 	\includegraphics
+                      [height=2cm]{images/logo_investir.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.59 	\begin{center}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.59 	\begin{center}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (199.62814pt too wide) in paragraph at lines 51--59
+[]\OT1/cmr/bx/n/10 [height=2cm]images/logo$[]\OML/cmm/m/it/10 cb:png \OT1/cmr/m
+/n/10 [\OML/cmm/m/it/10 height \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (156.06264pt too wide) in paragraph at lines 51--59
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 cm\OT1/cmr/m/n/10 ][] [\OML/cmm/m/it/10 heigh
+t \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (158.48688pt too wide) in paragraph at lines 51--59
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 cm\OT1/cmr/m/n/10 ][] [\OML/cmm/m/it/10 heigh
+t \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (129.9837pt too wide) in paragraph at lines 51--59
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 cm\OT1/cmr/m/n/10 ][]$ 
+ []
+
+! Undefined control sequence.
+l.60 		\includegraphics
+                       [height=2cm]{images/logo_rbfc.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 		\includegraphics[height=2cm]{images/logo_
+                                                rbfc.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.60 ...graphics[height=2cm]{images/logo_rbfc.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.62 		\includegraphics
+                       [height=2cm]{images/logo_feder.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \end{document} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\end{center}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 	\end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.63 	\end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.63 	\end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (263.60487pt too wide) in paragraph at lines 60--64
+\OT1/cmr/bx/n/10 [height=2cm]images/logo$[]\OML/cmm/m/it/10 bfc:png \OT1/cmr/m/
+n/10 [\OML/cmm/m/it/10 height \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (118.74753pt too wide) in paragraph at lines 60--64
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 cm\OT1/cmr/m/n/10 ][]$ 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.65 \end{titlepage}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+)
+! Emergency stop.
+<*> ./front.tex
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 29 strings out of 475385
+ 628 string characters out of 2776908
+ 347396 words of memory out of 3000000
+ 21507 multiletter control sequences out of 15000+600000
+ 469567 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 26i,5n,25p,156b,208s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

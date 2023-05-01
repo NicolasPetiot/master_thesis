@@ -1,0 +1,48 @@
+\chapter{Materials and Methods}
+\section{Multiple Sequence Alignment}
+Multiple sequence alignment (MSA) is a fundamental technique in bioinformatics used to compare and analyze the similarities and differences between multiple biological sequences. These sequences can be DNA, RNA, or protein sequences and can come from various species or different regions of the same genome. By aligning these sequences, it is possible to identify conserved regions that are important for function or evolution, as well as unique features that differentiate the sequences.
+% add picture from F. Neiers ?
+In this study, we focus on a set of 25 GSTs sequences related to each other through darwinian evolution. Each sequence has a different length, making the alignment process especially useful. Through this analysis, we aim to identify regions of conservation and divergence between the sequences (see exemple bellow). Our first task was to use MSA to predict the position of the dimer interface and binding site of the set of sequences. The stability of the dimer structure is dependent on the interactions at this interface. Therefore, understanding the location and conservation of the dimer interface can provide insights into the stability of the dimer structure and the mechanisms of the biological activity. On the other hand, the binding site is the specific location on the enzyme where a substrate or ligand binds and interacts. The catalytic efficiency of the enzyme is related to the binding site because it determines the specificity and strength of the substrate-enzyme interaction. Therefore, understanding the location and conservation of the binding site is essential for elucidating the function and mechanism of action of the enzyme.\\
+\\
+\begin{minipage}{.69\linewidth}
+\noindent Each cell in the MSA matrix corresponds to a particular amino acid at a particular position in a particular sequence. We refer to the position in the MSA matrix as the MSA index. The MSA index allows us to compare the amino acid residues at each position across all the sequences in the alignment. We focused on highlighting residues that are known to be part of the dimer interface or binding site. By doing so, we can compare these residues across all sequences and identify any conserved or variable regions.
+\end{minipage}
+\begin{minipage}{.30\linewidth}
+\begin{Verbatim}[commandchars=\\\{\}]
+ MSA sample :
+ seq1 ...gqk-eq-q\blue{lyp}k...
+ seq2 ...aks--d-e\blue{lyp}k...
+ seq3 ...ans--d-e\blue{lyp}r...
+ (\blue{conserved region})
+\end{Verbatim}
+\end{minipage}
+\section{Anisotropic Network Model}
+As seen in the introduction, the AlphaFold program allows for the prediction of protein structures with remarkable accuracy. These structures have the potential to be used in a wide range of applications, including molecular dynamics simulations. In this work, we aim to use AlphaFold-predicted structures as input for the Anisotropic Network Model (ANM) to study protein dynamics. Specifically, we will compare the results obtained from the ANM simulations using AlphaFold structures with those obtained using experimentally determined structures. More precisely, we will use the ANM to predict the thermal B-factors of the studied structures\cite{ANM-COM}, which are important indicators of protein flexibility and stability. The insights gained from this study will contribute to the ongoing efforts to develop computational tools for protein structure analysis and facilitate a deeper understanding of protein dynamics and function. To achieve these goals, it is necessary to provide a detailed description of the ANM and its underlying mathematical principles. The ANM is a widely used method for studying the collective motions and dynamics of proteins based on their structure. It models the protein as a network of connected nodes and springs (representing covalent and non-covalent interactions between them). \\
+Let $\vv{r_i}$ being the position of the node $i$ and $M_i$ it's mass. In the ANM, each node is assumed to be at the bottom of an harmonic potential, since interactions are modeled by connections between nodes, the force matrix is obtained by computing the mass-weighted Hessian matrix
+\begin{equation}
+	\label{mass-weighted hessian matrix}
+	\hat{H}_{ij} = -\frac{\Gamma_{ij}\gamma}{\sqrt{M_iM_j}}\cfrac{\vv{R_{ij}}\vv{R^T_ {ij}}}{R^2_ {ij}}
+\end{equation}
+where $\gamma$ is the spring constant used to model interactions between nodes, $\vv{R_{ij}} = \vv{r_j} - \vv{r_i}$, and $\Gamma$ is the contact matrix. In the case were $i = j$, the force matrix is computed so that the self interacting term is the response to all the applied forces.
+\begin{equation}
+	\label{self interacting terms}
+	\hat{H}_{ii} = -\sum_{j \ne i}H_{ij}
+\end{equation}
+$\Gamma_{ij}$ is equal to $1$ if we consider a connection between the nodes $i$ and $j$ and $0$ else. The computation of $\Gamma$ is as follows, given a cutoff radius $R_c$, two nodes $i$ and $j$ are connected by a spring if $\vert \vv{R_{ij}}\vert < R_c$. The normal modes and eigenfrequencies are given by the diagonalization of the mass-weighted Hessian matrix.
+\begin{equation}
+	\label{eigen equation}
+	\hat{H}\vv{e}_k = \tilde{\omega}_k^2\vv{e}_k
+\end{equation}
+It is important to make some remarks at this point, first in the equation (\ref{mass-weighted hessian matrix}) $\hat{H}_{ij}$ is actually a three by three matrix. It means that the ovearall $\hat{H}$ will be a square matrix of dimention $d = 3N$ with $N$ the number of considered nodes. Since the diagonalization algorythms have a complexity of $O(d^3)$, it means that the computation time will highly depends on the choosen set of nodes. Second, the masses of the nodes are expressed in g.mol$^{-1}$ to avoid numerical errors in the diagonalization. Expressing $\gamma$ in J.m$^{-2}$, it means that the eigenvalues $\tilde{\omega}_k^2$ are expressed in kmol.s$^{-2}$. The eigenfrequency expressed in Hz is then given by $\omega_k = \sqrt{\mathcal{N}_a \times \tilde{\omega}_k^2 \times 10^3}$, where $\mathcal{N}_a$ is the constant of Avogadro. Thermal B-factors of the node i can be deduced from the normal modes using the following 
+\begin{equation}
+	\label{thermal B-factors}
+	\beta_i = \frac{8\pi^2}{3}\frac{k_BT}{M_i}\sum_k\cfrac{\vert\vv{e}_{k, i}\vert^2}{\tilde{\omega}_k^2}
+\end{equation}
+where $\vv{e}_{k, i}$ contains the elements of $\vv{e}_k$ related to the node $i$. $\beta_i$ is expressed in $m^2$ but will always be converted in $\AA^2$ because of conventions and usual order of magnitude.\\
+\noindent Ever since the beginning, we were talking in a very abstract way about "nodes". In this work, we did consider several ensembles of nodes, namely the amino-acid's center of mass (COM), the heavy atom's position (ATM) and the atom's position (ATM+H). This allowed us to analyse structures with a various number of node. When available, we compared the values computed with the various ANMs with X-ray based measurement in term of pearson correlation.
+\begin{equation}
+	\label{pearsonr}
+	\mathcal{R} = \cfrac{\displaystyle\sum_i (\beta_i - <\beta>_i)(B_i - <B>_i)}{\sqrt{\displaystyle\sum_i(\beta_i - <\beta>_i)^2}\sqrt{\displaystyle\sum_j(B_j - <B>_j)^2}}
+\end{equation}
+The values of $\mathcal{R}$ are between $-1$ and $1$ and gives the linear correlation between predicted and measured B-factors. A coefficient of $1$ is associated to a perfect correlation wherease a coefficient of $0$ means that there is basically no links between prediction and experiment. Eventually, a negative value of $\mathcal{R}$ means that there is a correlation with opposite sign and would be interpreted as a result even worst than no correlation. Note that we need to consider the same ensemble of points for $\beta_i$ and $B_i$.
+%\section{Molecular Dynamics}
