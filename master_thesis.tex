@@ -1,0 +1,29 @@
+\documentclass[11pt,a4paper,twoside,openright]{book}
+\input{preambule/preambule}
+\begin{document}
+	\frontmatter% début des pages liminaires
+	\pagestyle{front}%style des en-têtes pour cette partie
+	\input{cover_page/front}%on crée la couverture
+	\thispagestyle{empty}%pour la page de garde toute blanche
+	\input{abstract/abstract}%no comment !
+	%\input{acknowledgements/acknowledgements}%no comment !
+	\tableofcontents
+	%
+	\mainmatter% corps du document
+	\pagestyle{main}%style des en-têtes pour cette partie
+	\input{introduction/introduction}
+	\input{methods/methods}
+	%\input{results/results}
+	%\input{conclusion/conclusion}
+	\cleardoublepage% le corps du document est terminé
+	%
+	\appendix
+	\pagestyle{back}
+	%\input{supporting_information/supporting_information}
+	\addcontentsline{toc}{chapter}{Supporting Information}
+	\backmatter
+	\printbibliography
+	\addcontentsline{toc}{chapter}{Bibliography}
+	\input{cover_page/back}
+	
+\end{document}
