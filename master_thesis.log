@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.25)  15 MAY 2023 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.25)  20 MAY 2023 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1433,12 +1433,12 @@ Package biblatex Info: ... file 'master_thesis.bbl' found.
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
  (./cover_page/front.tex
-<images/logo_ub.png, id=27, 263.98625pt x 160.6pt>
+<images/logo_ub.png, id=73, 263.98625pt x 160.6pt>
 File: images/logo_ub.png Graphic file (type png)
 <use images/logo_ub.png>
 Package pdftex.def Info: images/logo_ub.png  used on input line 7.
 (pdftex.def)             Requested size: 140.31082pt x 85.35826pt.
-<images/logo_ubfc.png, id=29, 1085.05376pt x 504.88625pt>
+<images/logo_ubfc.png, id=75, 1085.05376pt x 504.88625pt>
 File: images/logo_ubfc.png Graphic file (type png)
 <use images/logo_ubfc.png>
 Package pdftex.def Info: images/logo_ubfc.png  used on input line 9.
@@ -1455,32 +1455,32 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/logo_icb.png, id=30, 240.9pt x 173.448pt>
+<images/logo_icb.png, id=76, 240.9pt x 173.448pt>
 File: images/logo_icb.png Graphic file (type png)
 <use images/logo_icb.png>
 Package pdftex.def Info: images/logo_icb.png  used on input line 51.
 (pdftex.def)             Requested size: 79.03407pt x 56.9055pt.
-<images/logo_cnrs.png, id=31, 1204.5pt x 1204.5pt>
+<images/logo_cnrs.png, id=77, 1204.5pt x 1204.5pt>
 File: images/logo_cnrs.png Graphic file (type png)
 <use images/logo_cnrs.png>
 Package pdftex.def Info: images/logo_cnrs.png  used on input line 53.
 (pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
-<images/logo_eiphi.png, id=32, 385.44pt x 177.66376pt>
+<images/logo_eiphi.png, id=78, 385.44pt x 177.66376pt>
 File: images/logo_eiphi.png Graphic file (type png)
 <use images/logo_eiphi.png>
 Package pdftex.def Info: images/logo_eiphi.png  used on input line 55.
 (pdftex.def)             Requested size: 123.45506pt x 56.9055pt.
-<images/logo_investir.png, id=33, 642.4pt x 642.4pt>
+<images/logo_investir.png, id=79, 642.4pt x 642.4pt>
 File: images/logo_investir.png Graphic file (type png)
 <use images/logo_investir.png>
 Package pdftex.def Info: images/logo_investir.png  used on input line 57.
 (pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
-<images/logo_rbfc.png, id=34, 762.59906pt x 578.16pt>
+<images/logo_rbfc.png, id=80, 762.59906pt x 578.16pt>
 File: images/logo_rbfc.png Graphic file (type png)
 <use images/logo_rbfc.png>
 Package pdftex.def Info: images/logo_rbfc.png  used on input line 60.
 (pdftex.def)             Requested size: 75.05418pt x 56.9055pt.
-<images/logo_feder.png, id=35, 263.98625pt x 133.49875pt>
+<images/logo_feder.png, id=81, 263.98625pt x 133.49875pt>
 File: images/logo_feder.png Graphic file (type png)
 <use images/logo_feder.png>
 Package pdftex.def Info: images/logo_feder.png  used on input line 62.
@@ -1494,7 +1494,12 @@ Package pdftex.def Info: images/logo_feder.png  used on input line 62.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo_ub.png> <./i
 mages/logo_ubfc.png> <./images/logo_icb.png> <./images/logo_cnrs.png> <./images
 /logo_eiphi.png> <./images/logo_investir.png> <./images/logo_rbfc.png> <./image
-s/logo_feder.png>]) [2
+s/logo_feder.png>]) (./abstract/abstract.tex [2
+
+]) (./acknowledgements/acknowledgements.tex
+[3] [4
+
+]) [5] [6
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
@@ -1506,9 +1511,9 @@ File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 \tf@toc=\write10
 \openout10 = `master_thesis.toc'.
 
- [3] [4
+ [7] [8
 
-] (./results/results.tex
+] (./introduction/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 1
 .
@@ -1522,70 +1527,111 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 [][][][][][][][][]  
  []
 
-<figures/fig3-1-1.pdf, id=74, 1020.3631pt x 220.60417pt>
+[1
+
+]) (./methods/methods.tex [2]
+Chapter 2.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+[3
+
+]
+
+LaTeX Warning: Command \r invalid in math mode on input line 31.
+
+Missing character: There is no Å in font cmr10!
+[4]) (./results/results.tex [5] [6
+
+]
+Chapter 3.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
+[][][][][][][][][]  
+ []
+
+<figures/fig3-1-1.pdf, id=225, 1020.3631pt x 220.60417pt>
 File: figures/fig3-1-1.pdf Graphic file (type pdf)
 <use figures/fig3-1-1.pdf>
 Package pdftex.def Info: figures/fig3-1-1.pdf  used on input line 6.
 (pdftex.def)             Requested size: 478.86255pt x 103.53249pt.
-<figures/fig3-1-2.pdf, id=75, 409.53pt x 330.9966pt>
+<figures/fig3-1-2.pdf, id=226, 409.53pt x 330.9966pt>
 File: figures/fig3-1-2.pdf Graphic file (type pdf)
 <use figures/fig3-1-2.pdf>
 Package pdftex.def Info: figures/fig3-1-2.pdf  used on input line 8.
 (pdftex.def)             Requested size: 153.2395pt x 123.85573pt.
-<figures/fig3-1-3.png, id=76, 642.4pt x 515.9275pt>
+<figures/fig3-1-3.png, id=227, 642.4pt x 515.9275pt>
 File: figures/fig3-1-3.png Graphic file (type png)
 <use figures/fig3-1-3.png>
 Package pdftex.def Info: figures/fig3-1-3.png  used on input line 11.
 (pdftex.def)             Requested size: 153.2395pt x 123.06937pt.
-<figures/fig3-1-4.png, id=77, 642.4pt x 515.9275pt>
+<figures/fig3-1-4.png, id=228, 642.4pt x 515.9275pt>
 File: figures/fig3-1-4.png Graphic file (type png)
 <use figures/fig3-1-4.png>
 Package pdftex.def Info: figures/fig3-1-4.png  used on input line 14.
 (pdftex.def)             Requested size: 153.2395pt x 123.06937pt.
-) [1
-
- <./figures/fig3-1-1.pdf> <./figures/fig3-1-2.pdf> <./figures/fig3-1-3.png> <./
-figures/fig3-1-4.png>] [2]
-
-LaTeX Warning: Empty bibliography on input line 25.
-
-(./cover_page/back.tex)
+) [7 <./figures/fig3-1-1.pdf> <./figures/fig3-1-2.pdf> <./figures/fig3-1-3.png>
+ <./figures/fig3-1-4.png>] [8] (./cover_page/back.tex)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(./master_thesis.aux)
+[9
+
+
+
+] (./master_thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `master_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8F3732F4B58FDF0A1F9235C40033E7AC;993.
+(rerunfilecheck)             Checksum: A6029F8245AC02B19973D887F643B36C;2609.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                master_thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'master_thesis.run.xml'.
 \openout1 = `master_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42053 strings out of 478287
- 806988 string characters out of 5849289
- 1581544 words of memory out of 5000000
- 59541 multiletter control sequences out of 15000+600000
- 484056 words of font info for 67 fonts, out of 8000000 for 9000
+ 42418 strings out of 478287
+ 815793 string characters out of 5849289
+ 1593101 words of memory out of 5000000
+ 59842 multiletter control sequences out of 15000+600000
+ 486275 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,11n,94p,1872b,1853s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfsx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/zapfchan/uzcmi8a.pfb>
-Output written on master_thesis.pdf (6 pages, 1237725 bytes).
+ 96i,12n,94p,2265b,1853s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx207
+4.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on master_thesis.pdf (17 pages, 1389034 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 266 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
