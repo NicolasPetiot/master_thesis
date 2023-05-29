@@ -60,7 +60,7 @@
 	\caption{Coarse grained representation \& cut-off parametrisation of GSTD1 structure}	
 \end{figure}
 
-\noindent In the figure \ref{Rc param}, it is clearly visible that for $R_c = 7.5\AA$, the eigenvalues for $k \ge 6$ are no longer nulls. It is then convenient tu use this value of cut-off for this structure. Note that later, such computations will be performed for all 25 structures in order to have a correct representation of the structures' topology. Those eigenvalues are computed for $\gamma = 1$ kcal.mol$^{-1}$.\AA$^{-2}$, but as we have seen before, $\tilde{\omega}_k^2 \propto \gamma$. It is now time to compute the thermal B-factors to be able to compute the optimal $\gamma$ value.
+\noindent In the figure \ref{Rc param}, it is clearly visible that for $R_c = 7.5\AA$, the eigenvalues for $k \ge 6$ are no longer nulls. It is then convenient to use this value of cut-off for this structure. Note that later, such computations will be performed for all 25 structures in order to have a correct representation of the structures' topology. Those eigenvalues are computed for $\gamma = 1$ kcal.mol$^{-1}$.\AA$^{-2}$, but as we have seen before, $\tilde{\omega}_k^2 \propto \gamma$. It is now time to compute the thermal B-factors to be able to compute the optimal $\gamma$ value.
 
 \subsection{Predictions}
 \begin{figure}[h!]
@@ -76,6 +76,25 @@
 	\caption{Thermal B-factors predicted from ANM-COM and comparisions with XRD measurments}
 \end{figure}
 
+\noindent The GSTD1 structure already have been studied and a X-ray diffraction based measurment of the Thermal B-factors have been done. This curve is represented in red in the figure (\ref{ANM-COM D1}). The predictions of the ANM-COM are done first taking $R_c = 7.5$\AA ~and $\gamma = 1$kcal.mol$^{-1}$.\AA$^{-2}$, then using least squared methods to fit the predictions on the measurments, one can compute a $\gamma$ value of $14$kcal.mol$^{-1}$.\AA$^{-2}$. Eventually, it is possible to add $6$ nodes that corresponds to the amino-acids of the GSHs predicted from AlphaFill. In the case of the GSTD1, the program gives $40$ different positions. We computed the thermal B-factors for those $40$ structures (protein + ligands) and plotted the range of B-factors predicted in blue in the figure (\ref{ANM-COM D1}). From these results, there is several remarks to be done. First in the APO configuration, one can clearly see that the position of the predicted spikes matches the position of the XRD measurments, even though their relative amplitude doesn't seems to be perfect. The computation of the pearson correlation gives $56\%$. Then, taking into account the GSHs, it appears that in the regions where the ANM gives the highest predicted B-factors, the ligands introduce a bigger rigidity and reduces the predictions in the regions of index $33-52$ and $103-138$. The computed pearson correlation for the GSH was achieved taking for each residue the minimal value of B-factors within the range of $40$ predictions and gives an increase of $8\%$ comared to the APO configuration. It is also possible to look at the conservation of the residues in this range the same way we did in the previous section. Let us for instances consider the residue $34$. Projected on the MSA matrix, this gives an index of $39$ which gives the following histogram.
+\begin{figure}[h!]
+	\label{j=39}
+	\begin{minipage}{.48\linewidth}
+		For this specific index, the GSTs usually have either Leucines or Tyrosines amino-acids with a high probability or Isoleucine, Phenylalanine, Methionine or Valine with much smaller probability. All those residues have hydrophobic side chains and the main difference that can be done is the presence or abscence of aromatic rings in the amino-acid's side chain.
+	\end{minipage}
+	\begin{minipage}{.48\linewidth}
+		\centering
+		\includegraphics[height = 4cm]{figures/amino-acid_conservation_j=39.jpg}
+	\end{minipage}	
+	\caption{Amin-acid conservation for the 39$^{\text{th}}$ residue of the MSA matrix}
+\end{figure}
+
+\noindent So far, we have seen a methodology that allows, starting from a protein sequence to determine the associated structure and flexibility using ANM. It is now possible to extend this methodology to the set of 25 GSTs. The parameter $\gamma$ is set to be $14$ kcal.mol$^{-1}$.\AA$^{-2}$ and the $R_c$ cut-off will be systematically computed for each structure. Eventually, using a projection on the MSA matrix, it is possible to build the following representation.
+\begin{figure}[h!]
+	\label{ANM-COM + MSA}
+	\includegraphics[width = .99\linewidth]{figures/ANM-COM_MSA_rep.jpg}
+	\caption{ANM-COM prediction for the thermal B-factors of the 25 GSTs considered}
+\end{figure}
 \section{Dynamics from Molecular Dynamics}
 
 \section{Comparison between Structures}
