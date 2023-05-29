@@ -1,41 +1,81 @@
 \chapter{Results and Discussion}
 
 \section{Sequences and Static Structures}
+
 \begin{figure}[h!]
-	\label{MSA + RMSDs}
-	\includegraphics[width = .99\textwidth]{figures/MSA_matrix.pdf}\\[.5cm]
+	\label{Sequence & Structure}
+	%\raggedright\textbf{A}
+	%\includegraphics[width = .99\linewidth]{figures/MSA_1-120_empty.pdf}\\[.5cm] % MSA
 	\begin{minipage}{.32\linewidth}
-		\includegraphics[width = .99\textwidth]{figures/PercentID_matrix}
+		\textbf{A}\\
+		\includegraphics[height = 5cm]{figures/PercentID_matrix.jpg} % ID matrix
 	\end{minipage}
 	\begin{minipage}{.32\linewidth}
-		\includegraphics[width = .99\textwidth]{figures/RMSD_matrix}
+		\textbf{B}\\
+		\includegraphics[height = 5cm]{figures/GSTD1_GSHs.png} % 40 positions of GSH		
 	\end{minipage}
 	\begin{minipage}{.32\linewidth}
-		\includegraphics[width = .99\textwidth]{figures/GSTD1_DI+BS}
+		\textbf{C}\\
+		\includegraphics[height = 5cm]{figures/RMSD_matrix.jpg} % RMSD matrix
 	\end{minipage}
-	\caption{MSA \& RMSD matrix of the considered GSTs}
+	\caption{Sequences and structures associated to the selected \textit{Drosophila Melanogaster}'s GSTs}
 \end{figure}
-\noindent As a preliminary analysis, the $25$ sequences of GSTs were aligned using MSA algorithms and structures were predicted using AlphaFold. The percent identity matrix has been computed and allow to show similarity between GSTs from a sequencial point of view. The proteins from class $\delta$ are all considered as part of the same cluster but for the $\epsilon$ class, some variations pears and it seems that the class itself is very heterogene. MSA also  allowed us to determine the conseved regions for the binding site (highlighted in green) and the structural differences between each structure based on the RMSD matrix. In the class $\delta$, the residues in a MSA index of $70-76$ present a very high degree of conservation, and the same goes for the residues $204-210$ in the class $\varepsilon$. Conserved regions are a first probe for the common function of proteins, mainly catalyse in the case of GSTs. Moreover, the programm AlphaFill also allows to predict the position of ligands in the structures and thuss determine the residues involved in the protein/ligands binding. Here, it clearly appears that the ligands usually binds in the regions $55-58$; $71-73$; $111-121$ with a high conservation but also in region $144-153$ of class $\varepsilon$ with a much smaller conservation. From a geometrical point of view, the structures in class $\delta$ are self similar (with RMSDs between $1$ and $2$ \AA) and structures in class $\varepsilon$ are also self similar but with some exceptions like the GSTE10, GSTE13 and GSTE14 that can either be exceptions from a biological point of view or different because of the precision of the predictions of AlphaFold (with RMSDs $\approx 4$ \AA). Finally, the interface of dimerization looks well conserved from a positional point of view but also from a chemical point of view, with a lot of chemically similar residues in the associated interfaces.   
+
+\noindent The first step of our methodology was to study the sequences of the GSTs of interest. We computed their Multiple Sequence Alignment as well as the percent identity matrix associated (see Fig. \ref{Sequence & Structure} pannel A). This allows to identify regions of high/low conservation as well as clusters of identity. For instance, it is clearly visible that among the class $\delta$, the GSTs are self similar from a sequence point of view. In contradiction, it seems that among the class $\varepsilon$, the GSTs E5, E6, E7, E8 are self similar but the other ones seems much more different. The sequences were then used as a base for the AlphaFold program to predict the 3D structure (pannel B) and pairs of structures were compared using the Root Mean Squared Deviation (i.e. geometrical distances between atoms, pannel C) and once again in the associated matrix, one can identify two main clusters for class $\delta$ and $\varepsilon$ but here the E10 gives much higher values than we might have expect. This is due to a much longer sequence in the terminal part that make the RMSD higher.
+
+\noindent The information about the structures can be completed by an information about the position of the Glutathione. As mantioned earlier, the program AlphaFill allows to make such precisions and this gives $40$ different positions of Glutathion-like ligands in the GSTD1 (i.e. ligands that are chemically close to Glutathione), those positions are represented in the 3D structure (pannel B). Distances between atoms allowed us to determine from these data the residues that are involved in the protein-ligand binding as well as the dimerization of the structure. Indeed, two atoms that are closer than $3$\AA ~were considered as in contact. This information can be computed for all 25 structures and projected on the MSA matrix computed before. This gives the following representation (see Fig. \ref{MSA + AF + AFi}), where we computed the probability of a given residue to be in the binding site or in the interface of dimerization. From this information, we are able to compute the conservation of any residue in the binding site / interface of dimerization. Here, we give an illustration in the case of the residue $124$, which have a high degree of conservation among all the studied GSTs and have been identified as a part of the binding site in $\%$.
+
+\begin{figure}[h!]
+	\label{MSA + AF + AFi}
+	\raggedright\textbf{A}
+	\includegraphics[width = .99\linewidth]{figures/MSA_matrix.pdf}\\[.5cm] % MSA + AF + AFi
+	\begin{minipage}{.75\linewidth}
+		\textbf{B}\\
+		\includegraphics[height = 2cm]{figures/MSA_Proba.jpg} 
+	\end{minipage}
+	\begin{minipage}{.22\linewidth}
+		\textbf{C}\\
+		\includegraphics[height = 2cm]{figures/amino-acid_conservation_BS_j=124.jpg} 
+	\end{minipage}
+	\caption{Indentification of residues in the binding site and of the interface of dimerization}
+\end{figure}
+   
+
 \section{Dynamics from Normal Modes}
-\begin{figure}[h!]
-	\label{ANM-COM Rc param}
-	\begin{minipage}{.48\linewidth}
-		\includegraphics[width = .99\textwidth]{figures/GSTD1_ElasticNetwork.png}		
-	\end{minipage}
-	\begin{minipage}{.48\linewidth}
-		\includegraphics[width = .99\textwidth]{figures/GSTD1_ANM-COM_Rc_param}
-	\end{minipage}
-	\caption{ANM-COM, cut-off parametrization}
-\end{figure}
-\noindent As presented before, this work aim at looking at the flexibility of the structures from ANM. A very first step is to decide of a set of parameters for the model. Let us first consider the GST-D1 structure predicted from AlphaFold. As seen in equation (\ref{mass-weighted hessian matrix}), the parameter $R_c$ have a direct influence on the elements of the mass-weighted hessian $\hat{H}$ and thuss a direct influence on it's eigenvalues. The figure \ref{ANM-COM Rc param} gives a visual representation of the set of center of mass and gives the influence of $R_c$. Here, it clearly appears that the modes $5$ and $6$ are numerically nulls but the $7^{\text{th}}$ mode gets non-null for cut-off above $7.5$\AA . This specific value then is the optimal value used for the computation of collective modes (\ref{eigen equation}). 
+\noindent As explained in the introduction, this present work not only cares about the informations that have been extracted from the static predictions of the AlphaFold and AlphaFill programs but also about the dynamics of the dimers. In this section we will present the next step of our methodology with the Anisotropic Network Model, starting with the parametrization.
+
+\subsection{Parametrization}
+\noindent The parametrization step is needed to make sure that the predictions of the model are physically relevant. From the amino-acid's center of mass, it is very simple to compute the mass-weighted Hessian (see eq. \ref{mass-weighted hessian matrix}). As presented before, a first step is to make sure that the cut-off $R_c$ is such that the eigenvalues of the Hessian are non-null. Taking the exemple of the GSTD1, we computed $\tilde{\omega}_k^2 (R_c)$ for the modes $5$, $6$, $7$ and $8$. 
 
 \begin{figure}[h!]
-	\label{ANM-COM Bfactors pred}
-	\includegraphics[width = .99\linewidth]{figures/GSTD1_ANM-COM_Bfactors.jpg}
-	\caption{Thermal B-factors predictions for the AlphaFold's structure of GST-D1 and comparition with XRD experiment}
+	\label{Rc param}
+	\begin{minipage}{.48\linewidth}
+		\textbf{A}\\
+		\includegraphics[width = .99\linewidth]{figures/GSTD1_ElasticNetwork.png}
+	\end{minipage}	
+	\begin{minipage}{.48\linewidth}
+		\textbf{B}\\
+		\includegraphics[width = .99\linewidth]{figures/GSTD1_ANM-COM_Rc_param.jpg}\\[.5cm]
+	\end{minipage}	
+	\caption{Coarse grained representation \& cut-off parametrisation of GSTD1 structure}	
 \end{figure}
 
-\noindent From the expression (\ref{thermal B-factors}), one can plot the predicted B-factors (green curve) as well as the results from X-ray diffraction (red curve). The coefficient $\gamma$ used here is obtained using the least squared methods and gives a spring constant of $14$ kcal.mol$^{-1}$.\AA$^{-2}$. The actual precision of the measurment have been quantified based on the pearson correlation between the two series (\ref{pearsonr}) and gives $56\%$ which is a value that one can consider as descent !
+\noindent In the figure \ref{Rc param}, it is clearly visible that for $R_c = 7.5\AA$, the eigenvalues for $k \ge 6$ are no longer nulls. It is then convenient tu use this value of cut-off for this structure. Note that later, such computations will be performed for all 25 structures in order to have a correct representation of the structures' topology. Those eigenvalues are computed for $\gamma = 1$ kcal.mol$^{-1}$.\AA$^{-2}$, but as we have seen before, $\tilde{\omega}_k^2 \propto \gamma$. It is now time to compute the thermal B-factors to be able to compute the optimal $\gamma$ value.
+
+\subsection{Predictions}
+\begin{figure}[h!]
+	\label{ANM-COM D1}
+	\begin{minipage}{.68\linewidth}
+		\textbf{A}\\
+		\includegraphics[height = 4cm]{figures/GSTD1+GSH_ANM-COM_Bfactors.jpg}
+	\end{minipage}
+	\begin{minipage}{.30\linewidth}
+		\textbf{B}\\
+		\includegraphics[height = 4cm]{figures/GSTD1_ANM-COM_Bfactors_structure.png}
+	\end{minipage}
+	\caption{Thermal B-factors predicted from ANM-COM and comparisions with XRD measurments}
+\end{figure}
+
 \section{Dynamics from Molecular Dynamics}
 
 \section{Comparison between Structures}
