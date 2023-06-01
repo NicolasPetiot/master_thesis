@@ -3,25 +3,38 @@
 \section{Sequences and Static Structures}
 
 \begin{figure}[h!]
-	\label{Sequence & Structure}
-	%\raggedright\textbf{A}
-	%\includegraphics[width = .99\linewidth]{figures/MSA_1-120_empty.pdf}\\[.5cm] % MSA
-	\begin{minipage}{.32\linewidth}
-		\textbf{A}\\
-		\includegraphics[height = 5cm]{figures/PercentID_matrix.jpg} % ID matrix
-	\end{minipage}
-	\begin{minipage}{.32\linewidth}
-		\textbf{B}\\
-		\includegraphics[height = 5cm]{figures/GSTD1_GSHs.png} % 40 positions of GSH		
-	\end{minipage}
-	\begin{minipage}{.32\linewidth}
-		\textbf{C}\\
-		\includegraphics[height = 5cm]{figures/RMSD_matrix.jpg} % RMSD matrix
-	\end{minipage}
-	\caption{Sequences and structures associated to the selected \textit{Drosophila Melanogaster}'s GSTs}
+	\label{AlphaFold structures}
+	\includegraphics[width = .99\linewidth]{figures/GSTs_array}
+	\caption{GST's structures predicted from AlphaFold}
 \end{figure}
 
-\noindent The first step of our methodology was to study the sequences of the GSTs of interest. We computed their Multiple Sequence Alignment as well as the percent identity matrix associated (see Fig. \ref{Sequence & Structure} pannel A). This allows to identify regions of high/low conservation as well as clusters of identity. For instance, it is clearly visible that among the class $\delta$, the GSTs are self similar from a sequence point of view. In contradiction, it seems that among the class $\varepsilon$, the GSTs E5, E6, E7, E8 are self similar but the other ones seems much more different. The sequences were then used as a base for the AlphaFold program to predict the 3D structure (pannel B) and pairs of structures were compared using the Root Mean Squared Deviation (i.e. geometrical distances between atoms, pannel C) and once again in the associated matrix, one can identify two main clusters for class $\delta$ and $\varepsilon$ but here the E10 gives much higher values than we might have expect. This is due to a much longer sequence in the terminal part that make the RMSD higher.
+\noindent The first step of our methodology was to study the sequences of the GSTs of interest. We computed their Multiple Sequence Alignment as well as the percent identity matrix associated. This allows to identify regions of high/low conservation as well as group of sequences that are self-similar. For instance, in the figure \ref{Sequence and Structure matricies} it is clearly visible that among the class $\delta$, the GSTs are self similar. In contradiction, it seems that among the class $\varepsilon$, the GSTs E5, E6, E7, E8 are self similar but the other ones seems much more different. The sequences were then used as a base for the AlphaFold program to predict the 3D structure (cf. figure \ref{AlphaFold structures}) and pairs of structures were compared using the Root Mean Squared Deviation (i.e. geometrical distances between atoms, pannel B) and once again in the associated matrix, one can identify two main clusters for class $\delta$ and $\varepsilon$ but here the E10 gives much higher values than we might have expect. This is due to a much longer sequence in the terminal part that make the RMSD higher. Eventually, one can remark that for most of the GSTs in the class $\varepsilon$, the terminal parts have any predicted structures. This is either due to a convergence problem in the AlphaFold predictions or to a biological feature of those proteins that isn't yet well known. From the structures and based on distance matricies between the atoms, it is possible to look at the interface of dimerization (i.e. the residues that are involved in the monomer-monomer binding). We also used this method to determine the Binding site of the ligands as presented bellow.
+
+\begin{figure}[h!]
+	\label{Sequence and Structure matricies}
+	\begin{minipage}{.48\linewidth}
+		\textbf{A}\\
+		\includegraphics[height = 6cm]{figures/PercentID_matrix.jpg}
+	\end{minipage}
+	\begin{minipage}{.48\linewidth}
+		\textbf{B}\\
+		\includegraphics[height = 6cm]{figures/RMSD_matrix.jpg}
+	\end{minipage}
+	\caption{Percent identity matrix and RMSD matrix computed from the GST sequences and stuctures}
+\end{figure}
+
+\section{Ligands}
+
+\begin{figure}[h!]
+	\label{AlphaFill & GSHs}
+	\begin{minipage}{.48\linewidth}
+		\textbf{A}\\
+		\includegraphics[height = 6cm]{figures/GSTD1_GSHs.png}
+	\end{minipage}
+	\begin{minipage}{.48\linewidth}
+		\textbf{B}\\
+	\end{minipage}
+\end{figure}
 
 \noindent The information about the structures can be completed by an information about the position of the Glutathione. As mantioned earlier, the program AlphaFill allows to make such precisions and this gives $40$ different positions of Glutathion-like ligands in the GSTD1 (i.e. ligands that are chemically close to Glutathione), those positions are represented in the 3D structure (pannel B). Distances between atoms allowed us to determine from these data the residues that are involved in the protein-ligand binding as well as the dimerization of the structure. Indeed, two atoms that are closer than $3$\AA ~were considered as in contact. This information can be computed for all 25 structures and projected on the MSA matrix computed before. This gives the following representation (see Fig. \ref{MSA + AF + AFi}), where we computed the probability of a given residue to be in the binding site or in the interface of dimerization. From this information, we are able to compute the conservation of any residue in the binding site / interface of dimerization. Here, we give an illustration in the case of the residue $124$, which have a high degree of conservation among all the studied GSTs and have been identified as a part of the binding site in $\%$.
 

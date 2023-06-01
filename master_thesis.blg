@@ -19,47 +19,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: master_thesis-blx.bib
 Database file #2: references/refs.bib
+Warning--I didn't find a database entry for "frova_glutathione_2006"
+Warning--I didn't find a database entry for "board_glutathione_2013"
+Warning--I didn't find a database entry for "atkinson_atlas_2009"
+Warning--I didn't find a database entry for "armstrong_structure_1997"
+Warning--I didn't find a database entry for "deponte_glutathione_2013"
+Warning--I didn't find a database entry for "mannervik_glutathione_1988"
+Warning--I didn't find a database entry for "cummins_multiple_2011"
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 17 entries,
+You've used 15 entries,
             6399 wiz_defined-function locations,
-            1321 strings with 12828 characters,
-and the built_in function-call counts, 226198 in all, are:
-= -- 20360
-> -- 2624
-< -- 742
-+ -- 7247
-- -- 1135
-* -- 16738
-:= -- 27741
+            1314 strings with 12447 characters,
+and the built_in function-call counts, 189985 in all, are:
+= -- 17005
+> -- 2210
+< -- 610
++ -- 5953
+- -- 948
+* -- 14146
+:= -- 23193
 add.period$ -- 0
-call.type$ -- 17
-change.case$ -- 415
+call.type$ -- 15
+change.case$ -- 329
 chr.to.int$ -- 44
-cite$ -- 32
-duplicate$ -- 22524
-empty$ -- 18455
-format.name$ -- 1884
-if$ -- 44734
+cite$ -- 28
+duplicate$ -- 18695
+empty$ -- 15677
+format.name$ -- 1581
+if$ -- 37667
 int.to.chr$ -- 0
-int.to.str$ -- 47
+int.to.str$ -- 41
 missing$ -- 0
-newline$ -- 789
-num.names$ -- 935
-pop$ -- 6849
+newline$ -- 669
+num.names$ -- 789
+pop$ -- 5896
 preamble$ -- 1
-purify$ -- 587
+purify$ -- 477
 quote$ -- 0
-skip$ -- 3853
+skip$ -- 3264
 stack$ -- 0
-substring$ -- 40040
-swap$ -- 3274
-text.length$ -- 560
+substring$ -- 33660
+swap$ -- 2780
+text.length$ -- 478
 text.prefix$ -- 1
 top$ -- 1
-type$ -- 566
+type$ -- 498
 warning$ -- 0
-while$ -- 3230
+while$ -- 2674
 width$ -- 0
-write$ -- 773
+write$ -- 655
+(There were 7 warnings)

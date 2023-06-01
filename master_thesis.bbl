@@ -309,6 +309,86 @@
     \field{year}{2021}
   \endentry
 
+  \entry{AlphaFold}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=JJ}{%
+         family={Jumper},
+         familyi={J\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pritzel},
+         familyi={P\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Figurnov},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Ronneberger},
+         familyi={R\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tunyasuvunakool},
+         familyi={T\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Russ},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={{\v{Z}}{\'\i}dek},
+         familyi={{\v{Z}}\bibinitperiod},
+         given={Augustin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Potapenko},
+         familyi={P\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{JJ+1}
+    \strng{fullhash}{JJERPAGTFMROTKBRZAPA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7873}
+    \field{pages}{583\bibrangedash 589}
+    \field{title}{Highly accurate protein structure prediction with AlphaFold}
+    \field{volume}{596}
+    \field{journaltitle}{Nature}
+    \field{year}{2021}
+  \endentry
+
   \entry{mannervik1985isoenzymes}{article}{}
     \name{author}{1}{}{%
       {{hash=MB}{%
@@ -541,207 +621,6 @@
   transferases}
     \field{volume}{13}
     \field{journaltitle}{Insects}
-    \field{year}{2022}
-  \endentry
-
-  \entry{AlphaFold}{article}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{10}{}{%
-      {{hash=JJ}{%
-         family={Jumper},
-         familyi={J\bibinitperiod},
-         given={John},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=ER}{%
-         family={Evans},
-         familyi={E\bibinitperiod},
-         given={Richard},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pritzel},
-         familyi={P\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GT}{%
-         family={Green},
-         familyi={G\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={Figurnov},
-         familyi={F\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=RO}{%
-         family={Ronneberger},
-         familyi={R\bibinitperiod},
-         given={Olaf},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=TK}{%
-         family={Tunyasuvunakool},
-         familyi={T\bibinitperiod},
-         given={Kathryn},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Bates},
-         familyi={B\bibinitperiod},
-         given={Russ},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=ZA}{%
-         family={{\v{Z}}{\'\i}dek},
-         familyi={{\v{Z}}\bibinitperiod},
-         given={Augustin},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Potapenko},
-         familyi={P\bibinitperiod},
-         given={Anna},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Nature Publishing Group UK London}%
-    }
-    \strng{namehash}{JJ+1}
-    \strng{fullhash}{JJERPAGTFMROTKBRZAPA+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{7873}
-    \field{pages}{583\bibrangedash 589}
-    \field{title}{Highly accurate protein structure prediction with AlphaFold}
-    \field{volume}{596}
-    \field{journaltitle}{Nature}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Multimer}{article}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{10}{}{%
-      {{hash=ER}{%
-         family={Evans},
-         familyi={E\bibinitperiod},
-         given={Richard},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=OM}{%
-         family={O’Neill},
-         familyi={O\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pritzel},
-         familyi={P\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=AN}{%
-         family={Antropova},
-         familyi={A\bibinitperiod},
-         given={Natasha},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Senior},
-         familyi={S\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GT}{%
-         family={Green},
-         familyi={G\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=ZA}{%
-         family={{\v{Z}}{\'\i}dek},
-         familyi={{\v{Z}}\bibinitperiod},
-         given={Augustin},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Bates},
-         familyi={B\bibinitperiod},
-         given={Russ},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Blackwell},
-         familyi={B\bibinitperiod},
-         given={Sam},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=YJ}{%
-         family={Yim},
-         familyi={Y\bibinitperiod},
-         given={Jason},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Cold Spring Harbor Laboratory}%
-    }
-    \strng{namehash}{ER+1}
-    \strng{fullhash}{EROMPAANSAGTZABRBSYJ+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{2021\bibrangedash 10}
-    \field{title}{Protein complex prediction with AlphaFold-Multimer}
-    \field{journaltitle}{BioRxiv}
-    \field{year}{2021}
-  \endentry
-
-  \entry{AlphaFill}{article}{}
-    \name{author}{4}{}{%
-      {{hash=HML}{%
-         family={Hekkelman},
-         familyi={H\bibinitperiod},
-         given={Maarten\bibnamedelima L},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=dVI}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Vries},
-         familyi={V\bibinitperiod},
-         given={Ida},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=JRP}{%
-         family={Joosten},
-         familyi={J\bibinitperiod},
-         given={Robbie\bibnamedelima P},
-         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Perrakis},
-         familyi={P\bibinitperiod},
-         given={Anastassis},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Nature Publishing Group US New York}%
-    }
-    \strng{namehash}{HML+1}
-    \strng{fullhash}{HMLdVIJRPPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1\bibrangedash 9}
-    \field{title}{AlphaFill: enriching AlphaFold models with ligands and
-  cofactors}
-    \field{journaltitle}{Nature Methods}
     \field{year}{2022}
   \endentry
 

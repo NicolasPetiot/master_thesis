@@ -1,21 +1,24 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Abstract}{ii}{Doc-Start}%
+\contentsline {chapter}{Acknowledgements}{iii}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Glutathione Transferase}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}AlphaFold}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Goals}{2}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Materials and Methods}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Multiple Sequence Alignment}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Anisotropic Network Model}{3}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Theory}{4}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Parametrization}{5}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Molecular Dynamics}{5}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Results and Discussion}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Sequences and Static Structures}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Dynamics from Normal Modes}{8}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Parametrization}{8}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Predictions}{9}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Dynamics from Molecular Dynamics}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Comparison between Structures}{10}{section.3.4}%
-\contentsline {chapter}{Supporting Information}{11}{section.3.4}%
-\contentsline {chapter}{Bibliography}{11}{appendix*.2}%
+\contentsline {section}{\numberline {1.1}3-D structures of proteins and the AlphaFold revolution}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Glutathione Transferase}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Goal of the present work}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Materials and Methods}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Multiple Sequence Alignment}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Anisotropic Network Model}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Theory}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Parametrization}{7}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Molecular Dynamics}{7}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Results and Discussion}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Sequences and Static Structures}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ligands}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dynamics from Normal Modes}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Parametrization}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Predictions}{12}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Dynamics from Molecular Dynamics}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Comparison between Structures}{13}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Conclusions and Perspectives}{15}{chapter.4}%
+\contentsline {chapter}{Supporting Information}{17}{chapter.4}%
+\contentsline {chapter}{Bibliography}{17}{appendix*.2}%
