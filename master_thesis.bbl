@@ -16,5 +16,667 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{du2016insights}{article}{}
+    \name{author}{8}{}{%
+      {{hash=DX}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Xing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XYL}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Yuan-Ling},
+         giveni={Y\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=ASM}{%
+         family={Ai},
+         familyi={A\bibinitperiod},
+         given={Shi-Meng},
+         giveni={S\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sang},
+         familyi={S\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JXL}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Xing-Lai},
+         giveni={X\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=LSQ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shu-Qun},
+         giveni={S\bibinithyphendelim Q\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{DX+1}
+    \strng{fullhash}{DXLYXYLASMLJSPJXLLSQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{144}
+    \field{title}{Insights into protein--ligand interactions: mechanisms,
+  models, and methods}
+    \field{volume}{17}
+    \field{journaltitle}{International journal of molecular sciences}
+    \field{year}{2016}
+  \endentry
+
+  \entry{li2019predicting}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KCC}{%
+         family={Koh},
+         familyi={K\bibinitperiod},
+         given={Ching\bibnamedelima Chiek},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reker},
+         familyi={R\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={JB},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Haishuai},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LNK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Nicholas\bibnamedelima Keone},
+         giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LHh}{%
+         family={Liow},
+         familyi={L\bibinitperiod},
+         given={Hien-haw},
+         giveni={H\bibinithyphendelim h\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FHM}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Huai-Meng},
+         giveni={H\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Luonan},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{LL+1}
+    \strng{fullhash}{LLKCCRDBJWHLNKLHhDHFHMCL+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{7703}
+    \field{title}{Predicting protein-ligand interactions based on
+  bow-pharmacological space and Bayesian additive regression trees}
+    \field{volume}{9}
+    \field{journaltitle}{Scientific reports}
+    \field{year}{2019}
+  \endentry
+
+  \entry{silva2010ligand}{article}{}
+    \name{author}{9}{}{%
+      {{hash=SJL}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Jerson\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VTC}{%
+         family={Vieira},
+         familyi={V\bibinitperiod},
+         given={Tuane\bibnamedelima CRG},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=GMP}{%
+         family={Gomes},
+         familyi={G\bibinitperiod},
+         given={Mariana\bibnamedelima PB},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BAPA}{%
+         family={Bom},
+         familyi={B\bibinitperiod},
+         given={Ana Paula\bibnamedelima Ano},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=LLMT}{%
+         family={Lima},
+         familyi={L\bibinitperiod},
+         given={Luis Mauricio\bibnamedelima TR},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+      {{hash=FMS}{%
+         family={Freitas},
+         familyi={F\bibinitperiod},
+         given={Monica\bibnamedelima S},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ID}{%
+         family={Ishimaru},
+         familyi={I\bibinitperiod},
+         given={Daniella},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cordeiro},
+         familyi={C\bibinitperiod},
+         given={Yraima},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Foguel},
+         familyi={F\bibinitperiod},
+         given={Debora},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACS Publications}%
+    }
+    \strng{namehash}{SJL+1}
+    \strng{fullhash}{SJLVTCGMPBAPALLMTFMSIDCYFD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{271\bibrangedash 279}
+    \field{title}{Ligand binding and hydration in protein misfolding: insights
+  from studies of prion and p53 tumor suppressor proteins}
+    \field{volume}{43}
+    \field{journaltitle}{Accounts of chemical research}
+    \field{year}{2010}
+  \endentry
+
+  \entry{payandeh2021ligand}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PJ}{%
+         family={Payandeh},
+         familyi={P\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Volgraf},
+         familyi={V\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{PJVM1}
+    \strng{fullhash}{PJVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{710\bibrangedash 722}
+    \field{title}{Ligand binding at the protein--lipid interface: strategic
+  considerations for drug design}
+    \field{volume}{20}
+    \field{journaltitle}{Nature Reviews Drug Discovery}
+    \field{year}{2021}
+  \endentry
+
+  \entry{chakraborti2021all}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CS}{%
+         family={Chakraborti},
+         familyi={C\bibinitperiod},
+         given={Sohini},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hatti},
+         familyi={H\bibinitperiod},
+         given={Kaushik},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Srinivasan},
+         familyi={S\bibinitperiod},
+         given={Narayanaswamy},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSHKSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{13}
+    \field{pages}{6830}
+    \field{title}{‘All That Glitters Is Not Gold’: High-Resolution Crystal
+  Structures of Ligand-Protein Complexes Need Not Always Represent Confident
+  Binding Poses}
+    \field{volume}{22}
+    \field{journaltitle}{International Journal of Molecular Sciences}
+    \field{year}{2021}
+  \endentry
+
+  \entry{AlphaFold}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=JJ}{%
+         family={Jumper},
+         familyi={J\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pritzel},
+         familyi={P\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Figurnov},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Ronneberger},
+         familyi={R\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tunyasuvunakool},
+         familyi={T\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Russ},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={{\v{Z}}{\'\i}dek},
+         familyi={{\v{Z}}\bibinitperiod},
+         given={Augustin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Potapenko},
+         familyi={P\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{JJ+1}
+    \strng{fullhash}{JJERPAGTFMROTKBRZAPA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7873}
+    \field{pages}{583\bibrangedash 589}
+    \field{title}{Highly accurate protein structure prediction with AlphaFold}
+    \field{volume}{596}
+    \field{journaltitle}{Nature}
+    \field{year}{2021}
+  \endentry
+
+  \entry{mannervik1985isoenzymes}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MB}{%
+         family={Mannervik},
+         familyi={M\bibinitperiod},
+         given={Bengt},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MB1}
+    \strng{fullhash}{MB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{357\bibrangedash 417}
+    \field{title}{The isoenzymes of glutathione transferase}
+    \field{volume}{57}
+    \field{journaltitle}{Adv Enzymol Relat Areas Mol Biol}
+    \field{year}{1985}
+  \endentry
+
+  \entry{armstrong1997structure}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ARN}{%
+         family={Armstrong},
+         familyi={A\bibinitperiod},
+         given={Richard\bibnamedelima N},
+         giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACS Publications}%
+    }
+    \strng{namehash}{ARN1}
+    \strng{fullhash}{ARN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{2\bibrangedash 18}
+    \field{title}{Structure, catalytic mechanism, and evolution of the
+  glutathione transferases}
+    \field{volume}{10}
+    \field{journaltitle}{Chemical research in toxicology}
+    \field{year}{1997}
+  \endentry
+
+  \entry{hayes2005glutathione}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HJD}{%
+         family={Hayes},
+         familyi={H\bibinitperiod},
+         given={John\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FJU}{%
+         family={Flanagan},
+         familyi={F\bibinitperiod},
+         given={Jack\bibnamedelima U},
+         giveni={J\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=JIR}{%
+         family={Jowsey},
+         familyi={J\bibinitperiod},
+         given={Ian\bibnamedelima R},
+         giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \strng{namehash}{HJD+1}
+    \strng{fullhash}{HJDFJUJIR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{51\bibrangedash 88}
+    \field{title}{Glutathione transferases}
+    \field{volume}{45}
+    \field{journaltitle}{Annu. Rev. Pharmacol. Toxicol.}
+    \field{year}{2005}
+  \endentry
+
+  \entry{combes1961liver}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=CB}{%
+         family={Combes},
+         familyi={C\bibinitperiod},
+         given={Burton},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SGS}{%
+         family={Stakelum},
+         familyi={S\bibinitperiod},
+         given={Geneva\bibnamedelima Sue},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Am Soc Clin Investig}%
+    }
+    \strng{namehash}{CBSGS+1}
+    \strng{fullhash}{CBSGS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{981\bibrangedash 988}
+    \field{title}{A liver enzyme that conjugates sulfobromophthalein sodium
+  with glutathione}
+    \field{volume}{40}
+    \field{journaltitle}{The journal of clinical investigation}
+    \field{year}{1961}
+  \endentry
+
+  \entry{axarli2004characterization}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AIA}{%
+         family={Axarli},
+         familyi={A\bibinitperiod},
+         given={Irine\bibnamedelima A},
+         giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RDJ}{%
+         family={Rigden},
+         familyi={R\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LNE}{%
+         family={Labrou},
+         familyi={L\bibinitperiod},
+         given={Nikolaos\bibnamedelima E},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Portland Press Ltd.}%
+    }
+    \strng{namehash}{AIA+1}
+    \strng{fullhash}{AIARDJLNE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{885\bibrangedash 893}
+    \field{title}{Characterization of the ligandin site of maize glutathione
+  S-transferase I}
+    \field{volume}{382}
+    \field{journaltitle}{Biochemical Journal}
+    \field{year}{2004}
+  \endentry
+
+  \entry{oakley2011glutathione}{article}{}
+    \name{author}{1}{}{%
+      {{hash=OA}{%
+         family={Oakley},
+         familyi={O\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{OA1}
+    \strng{fullhash}{OA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{138\bibrangedash 151}
+    \field{title}{Glutathione transferases: a structural perspective}
+    \field{volume}{43}
+    \field{journaltitle}{Drug metabolism reviews}
+    \field{year}{2011}
+  \endentry
+
+  \entry{F-Neiers-GSTs}{article}{}
+    \name{author}{7}{}{%
+      {{hash=GE}{%
+         family={Gonis},
+         familyi={G\bibinitperiod},
+         given={Elodie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fraichard},
+         familyi={F\bibinitperiod},
+         given={St{\'e}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chertemps},
+         familyi={C\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hecker},
+         familyi={H\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schwartz},
+         familyi={S\bibinitperiod},
+         given={Mathieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Canon},
+         familyi={C\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Neiers},
+         familyi={N\bibinitperiod},
+         given={Fabrice},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{GE+1}
+    \strng{fullhash}{GEFSCTHASMCFNF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{612}
+    \field{title}{Expression patterns of Drosophila Melanogaster glutathione
+  transferases}
+    \field{volume}{13}
+    \field{journaltitle}{Insects}
+    \field{year}{2022}
+  \endentry
+
+  \entry{ANM-COM}{article}{}
+    \name{author}{6}{}{%
+      {{hash=AAR}{%
+         family={Atilgan},
+         familyi={A\bibinitperiod},
+         given={Ali\bibnamedelima Rana},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Durell},
+         familyi={D\bibinitperiod},
+         given={SR},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JRL}{%
+         family={Jernigan},
+         familyi={J\bibinitperiod},
+         given={Robert\bibnamedelima L},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DMC}{%
+         family={Demirel},
+         familyi={D\bibinitperiod},
+         given={Melik\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KO}{%
+         family={Keskin},
+         familyi={K\bibinitperiod},
+         given={O},
+         giveni={O},
+      }}%
+      {{hash=BI}{%
+         family={Bahar},
+         familyi={B\bibinitperiod},
+         given={Ivet},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{AAR+1}
+    \strng{fullhash}{AARDSJRLDMCKOBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{505\bibrangedash 515}
+    \field{title}{Anisotropy of fluctuation dynamics of proteins with an
+  elastic network model}
+    \field{volume}{80}
+    \field{journaltitle}{Biophysical journal}
+    \field{year}{2001}
+  \endentry
+\enddatalist
 \endinput
