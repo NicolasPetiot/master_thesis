@@ -389,6 +389,67 @@
     \field{year}{2021}
   \endentry
 
+  \entry{F-Neiers-GSTs}{article}{}
+    \name{author}{7}{}{%
+      {{hash=GE}{%
+         family={Gonis},
+         familyi={G\bibinitperiod},
+         given={Elodie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fraichard},
+         familyi={F\bibinitperiod},
+         given={St{\'e}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chertemps},
+         familyi={C\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hecker},
+         familyi={H\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schwartz},
+         familyi={S\bibinitperiod},
+         given={Mathieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Canon},
+         familyi={C\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Neiers},
+         familyi={N\bibinitperiod},
+         given={Fabrice},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{GE+1}
+    \strng{fullhash}{GEFSCTHASMCFNF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{612}
+    \field{title}{Expression patterns of Drosophila Melanogaster glutathione
+  transferases}
+    \field{volume}{13}
+    \field{journaltitle}{Insects}
+    \field{year}{2022}
+  \endentry
+
   \entry{mannervik1985isoenzymes}{article}{}
     \name{author}{1}{}{%
       {{hash=MB}{%
@@ -561,67 +622,6 @@
     \field{volume}{43}
     \field{journaltitle}{Drug metabolism reviews}
     \field{year}{2011}
-  \endentry
-
-  \entry{F-Neiers-GSTs}{article}{}
-    \name{author}{7}{}{%
-      {{hash=GE}{%
-         family={Gonis},
-         familyi={G\bibinitperiod},
-         given={Elodie},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=FS}{%
-         family={Fraichard},
-         familyi={F\bibinitperiod},
-         given={St{\'e}phane},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CT}{%
-         family={Chertemps},
-         familyi={C\bibinitperiod},
-         given={Thomas},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=HA}{%
-         family={Hecker},
-         familyi={H\bibinitperiod},
-         given={Arnaud},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Schwartz},
-         familyi={S\bibinitperiod},
-         given={Mathieu},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CF}{%
-         family={Canon},
-         familyi={C\bibinitperiod},
-         given={Francis},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=NF}{%
-         family={Neiers},
-         familyi={N\bibinitperiod},
-         given={Fabrice},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {MDPI}%
-    }
-    \strng{namehash}{GE+1}
-    \strng{fullhash}{GEFSCTHASMCFNF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{7}
-    \field{pages}{612}
-    \field{title}{Expression patterns of Drosophila Melanogaster glutathione
-  transferases}
-    \field{volume}{13}
-    \field{journaltitle}{Insects}
-    \field{year}{2022}
   \endentry
 
   \entry{ANM-COM}{article}{}
