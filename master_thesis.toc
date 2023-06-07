@@ -2,25 +2,25 @@
 \contentsline {chapter}{Abstract}{ii}{Doc-Start}%
 \contentsline {chapter}{Acknowledgements}{iii}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}3-D structures of proteins and the AlphaFold revolution}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}3-D Structures of Proteins and the AlphaFold Revolution}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Glutathione Transferase}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Goal of the present work}{4}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Materials and Methods}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Multiple Sequence Alignment}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}AlphaFold}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Anisotropic Network Model}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Theory}{8}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Parameterization}{9}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Results and Discussion}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Sequence comparitions using Multiple Sequence Alignment}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Static structures predicted from AlphaFold}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}APO structures}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}GSH structures}{13}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Conservation}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Structural Dynamics from Normal Mode Analysis}{14}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Local mean square fluctuations}{14}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Non-local mean square fluctuations}{15}{subsection.3.4.2}%
+\contentsline {section}{\numberline {1.3}Goal of the present work}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Materials and Methods}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Multiple Sequence Alignment}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}AlphaFold}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Anisotropic Network Model}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Theory}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Parameterization}{8}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Results and Discussion}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Sequence Comparison using Multiple Sequence Alignment}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Structures of GSTs Predicted by AI}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Prediction of APO (unbound) structures using AlphaFold}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Prediction of ligand positions using AlphaFill}{11}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Conservation of Amino Acids in the Binding Sites and the Interface of Dimerization of GSTs}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Dynamics of GSTs from Normal Mode Analysis}{12}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Local Mean Square Fluctuations}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Non-Local Mean Square Fluctuations}{15}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Identification of conserved key residues}{15}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Conclusions and Perspectives}{17}{chapter.4}%
-\contentsline {chapter}{Supporting Information}{19}{figure.Alph0.3}%
-\contentsline {chapter}{Bibliography}{21}{appendix*.3}%
+\contentsline {chapter}{Supporting Information}{20}{figure.Alph0.3}%
+\contentsline {chapter}{Bibliography}{23}{appendix*.3}%

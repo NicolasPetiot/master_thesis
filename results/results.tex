@@ -1,105 +1,144 @@
 \chapter{Results and Discussion}
 
-\section{Sequence comparitions using Multiple Sequence Alignment}
-\noindent The first step of our methodology was to study the sequences of the GST of interest. We computed their Multiple Sequence Alignment\footnote{See Supporting Information for the whole MSA matrix} as well as the percent identity matrix associated. This allows to identify regions of high/low conservation as well as group of sequences that are self-similar. For instance, in the figure \ref{Sequence and Structure matricies} it is clearly visible on the pannel A that among the class $\delta$, the GSTs are self similar. In contradiction, it seems that among the class $\varepsilon$, the GSTs E5, E6, E7, E8 are self similar but not the other ones. This is even more visible in the pannel B where we computed the probability  of identity in the considered set of sequences. The red histogram takes into account the whole matrix and it apears that the identity is of $30-40\%$ within almost $60\%$ of the sequences but when we consider only the comparitions between sequences from a given class, we have usually $60-70\%$ of identity for the class $\delta$ and $40-50\%$ for the class $\varepsilon$. 
+\section{Sequence Comparison using Multiple Sequence Alignment}
 
-\begin{figure}[H]
+The first step of our methodology is to study the similarities and differences in the amino-acid sequences of the ensemble of GSTs that we are interedt in (25 sequences). It will provide us the global information about how well-conserved is this ensemble of structures. To do so, we used the Multiple Sequence Alignment (MSA) tool as presented in the section 2.1. From MSA, we computed the percentage of identity between pairs of sequences. This score corresponds to the amount of amino acids that are identical between two sequences. As shown in Fig.~\ref{Sequence and Structure matricies}a, the percentage of identity between GSTs belonging to the class $\delta$ is relatively high, with values ranging between 50 and 80\% identity. In addition, if we except the case of the GSTD11 which presents a singular behavior compared to the other GSTs from class $\delta$, the percentage identity is always larger than 60\%.
+
+For the class $\varepsilon$, the results are slightly different. Except for GSTs E5, E6, E7, E8 that show relatively high percentage identity within each others (around 70\%, Fig.~\ref{Sequence and Structure matricies}a), the overall sequence identity score between GSTs from the class $\varepsilon$ is lower (around 40-50\%). Particularly, the GSTE14 presents a singular behavior with identity score between 20-30\%. Moreover, the comparison between the two classes $\delta$ and $\varepsilon$ shows that the sequence identity is . It means that even though GSTs are from the same organism (\textit{i.e. Drosophilia Melanogaster}), the differences of sequences between two distinct classes are non negligible. Finally, we computed the histogram of percentage identity for the ensemble of the 25 GST structures. As shown in Fig.~\ref{Sequence and Structure matricies}b, the most probable identity score range for the ensemble of 25 GSTs studied in the present work is $[-]$\%. 
+
+\begin{figure}[h!]
 	\label{Sequence and Structure matricies}
 	\begin{minipage}{.48\linewidth}
-		A)\\
-		\includegraphics[height = 5cm]{figures/PercentID_matrix.jpg}
+		\textbf{(a)}\\
+		\includegraphics[height = 6cm]{figures/PercentID_matrix.jpg}
 	\end{minipage}
 	\begin{minipage}{.48\linewidth}
-		B)\\
-		\includegraphics[height = 5cm]{figures/PercentID_proba.jpg}
+		\textbf{(b)}\\
+		\includegraphics[height = 5.5cm]{figures/PercentID_proba.jpg}
+		\vspace{.15cm}
 	\end{minipage}
-	\caption{Percent identity matrix and probability from the GST sequences}
+	\caption{a) Percentage identity matrix ($25\times 25$) computed between each pair of sequences. b) Histogram of Percentage identity scores. Blue, green and red bars indicate classes $\delta$; $\varepsilon$ and both $\delta+\varepsilon$, respectively.}
 \end{figure}
 
-\section{Static structures predicted from AlphaFold}
-\subsection{APO structures}
-From the set of 25 sequences, we used AlphaFold to predict the associated 3D structure. Pairs of structures were compared using the Root Mean Squared Deviation (i.e. geometrical distances between atoms, Fig \ref{AlphaFill & GSHs} pannel A). In the associated RMSD matrix, one can identify two main clusters for class $\delta$ and $\varepsilon$. However the GSTE10 gives higher values than other $\varepsilon$ GSTs. This is due to a longer sequence in the C-terminal part with an extra $\alpha$-helix that makes the RMSD higher.
+\section{Structures of GSTs Predicted by AI}
 
-\begin{figure}
+\subsection{Prediction of APO (unbound) structures using AlphaFold}
+
+Fig.~\ref{AlphaFold structures} present the 25 static APO structures generated from AlphaFold2. Visually, it is not very obvious to localize the differences because the overall shape/folding of the protein is very similar. We can only point out some local conformation differences for GSTE10 and E14 at the C-terminal parts. It comes mainly from the fact that GSTE10 and E14 are the ones with the longest amino-acid sequence among the ensemble of 25 GSTs. Moreover, in order to characterize and quantify the structural ensemble obtained from AlphaFold2, each pair of GST structures were aligned and compared together by computing the Root Mean Squared Deviation metric, \textit{i.e.} the average of the geometrical distances between atoms, as shown in Fig.~\ref{AlphaFill & GSHs}a. This was done using the program PyMOL (\bulurl{https://pymol.org/}).
+
+\begin{figure}[h!]
+	\centering
 	\label{AlphaFold structures}
-	\includegraphics[width = .99\linewidth]{figures/GSTs_array}
-	\caption{GST's structures predicted from AlphaFold}
+ 	\includegraphics[width = \linewidth]{figures/GSTs_array}
+	\caption{Cartoon representation of the ensemble of 25 GST structures predicted from AlphaFold. The color code is: from N-terminal (red) to C-terminal (blue).}
 \end{figure}
 
-AlphaFold does not associate any secondary structure to most of the $\varepsilon$ GSTs.
+From RMSD matrix shown in Fig.~\ref{}, we identify two main clusters, one for class $\delta$ and one for $\varepsilon$, as observed for the sequence comparison. However the GSTE10 structure is characterized by higher RMSD values than the other GST structures, particularly when compared to GSTD3. In fact, it is due to the fact that GSTE10 has a longer amino acid sequence (see Fig.~\ref{}) located in the C-terminal part with an extra $\alpha$-helix. In the case of the GSTE14, the C-terminal part is unfolded.
 
-\subsection{GSH structures}
-From the GSTs, we used AlphaFill to get insight in the various ligands position. In average, the predictions give 40 different Glutathione-like predictions in the structures that will be taken into account. Figure \ref{AlphaFill & GSHs} pannel B) show the predictions of AlphaFill in the case of the GSTD1. The 40 GSHs are associated to a unique monomere (chain A) but for the computations, we took into account the GSHs for the full dimeric structure.
-
-\begin{figure}[H]
-	\label{AlphaFill & GSHs}
+\begin{figure}[h!]
+	\label{AlphaFold RMSD}
 	\begin{minipage}{.48\linewidth}
-		\textbf{A}\\
+		\textbf{(a)}\\
+		\centering
 		\includegraphics[height = 6cm]{figures/RMSD_matrix.jpg}
 	\end{minipage}
 	\begin{minipage}{.48\linewidth}
-		\textbf{B}\\
-		\includegraphics[height = 6cm]{figures/GSTD1_GSHs.png}
+		\textbf{(b)}\\
+		\centering
+		\includegraphics[height = 5.5cm]{figures/RMSD_Proba.jpg}
+		\vspace{.15cm}
 	\end{minipage}
-	\caption{Geometrical comparitions between AlphaFold predicted structures \& illustration of the predictions of AlphaFill in the case of the GSTD1}
+	\caption{a) RMSD matrix ($25\times 25$) computed between each pair of structures. b) Histogram of RMSD scores. Blue, green and red bars indicate classes $\delta$; $\varepsilon$ and both $\delta+\varepsilon$ classes, respectively.}
 \end{figure}
 
-\section{Conservation}
+\subsection{Prediction of ligand positions using AlphaFill}
+From the rise of AlphaFold, several tools have been developed very recently to continue the transformative effect of artificial intelligence on biomolecular sciences, for better predictions of proteins model. Indeed, the predicted protein models in the AlphaFold protein structure database, however, all lack coordinates for small molecules (\textit{i.e.} ligands), essential for molecular structure or biological functions.
 
-\noindent From the structures and based on distance matricies between the atoms, it is possible to look at the interface of dimerization (i.e. the residues that are involved in the monomer-monomer binding). We also used this method to determine the Binding site of the ligands. As mantioned earlier, the program AlphaFill allows to make such precisions and this gives $40$ different positions of Glutathion-like ligands in the GSTD1 (i.e. ligands that are chemically close to Glutathione), those positions are represented in the 3D structure (figure \ref{AlphaFill & GSHs} pannel B). Distances between atoms allowed us to determine from these data the residues that are involved in the protein-ligand binding as well as the dimerization of the structure. Indeed, two atoms that are closer than $3$\AA ~were considered as in contact. This information can be computed for all 25 structures and projected on the MSA matrix computed before. This gives the following representation (see Fig. \ref{MSA + AF + AFi}), where we computed the probability of a given residue to be in the binding site or in the interface of dimerization. From this information, we are able to compute the conservation of any residue in the binding site / interface of dimerization. Here, we give an illustration in the case of the residue $124$, which have a high degree of conservation among all the studied GSTs and have been identified as a part of the binding site in $\%$.
+AlphaFill is an algorithm based on sequence and structure similarity that "transplants" missing ligands to the AlphaFold models~\cite{AlphaFill}. For each of the 25 GST structures presented in Fig.~\ref{AlphaFold structures}, we used the AlphaFill program to predict the positions of Gluthatione ligands in GSTs. On average,AlphaFill predicts 40 different Glutathione-like ligand positions for each GST. Fig.~\ref{AlphaFill & GSHs}b shows the GSH positions predicted by AlphaFill in the case of the GSTD1. The 40 ligand positions are associated to a unique monomer but for computation purpose, we replicate the ligand positions in the second monomer as well.
+
+Finally, as show in Fig.~\ref{}, the ensemble of ligand positions obtained from AlphaFill can be heterogeneous, with X distinguishable binding sites observed visually. All these positions will be considered as an ensemble of ligand positions for each GST and will be included in the following structural dynamics calculations.
+
+\section{Conservation of Amino Acids in the Binding Sites and the Interface of Dimerization of GSTs}
+
+From the atomic structures of the 25 GSTs presented in Fig.\ref{AlphaFold structures} including ligand predictions from AlphaFill and by computing contact matrices between pairs of atoms, we characterize the sequence conservation of two main structural features of GST enzymes:
+\begin{itemize}
+	\item the Binding Sites (BSs)
+	\item the Interface of Dimerization (IoD)
+\end{itemize}
+
+Technically, two amino acids are considered to be in contact if the geometrical distance between at least the distance between one pair of heavy atoms is smaller than $3$\AA. This characteristic was computed for all the 25 GST structures and projected onto the Multiple Sequence Alignment matrix computed before (see Fig. X). In total, we identified X and Y amino acids that belongs to the BSs and IoD, respectively. It is not surprising that we found a lot of amino acids that belongs to the BSs since GSTs are well-known to recognize a large number of molecules as ligands.
+
+Then, we computed the probability of a given amino acid to belong to the BSs or the IoD as a function of the MSA index (Fig.~\ref{BS & DI Proba}a). For each MSA index of interest, i.e. where the probability of an amino acid to belong to BSs or IoD is not negligible ($> X\%$), we computed the conservation of amino acid in the ensemble of 25 GSTs. As shown in Fig.~\ref{BS & DI Proba}c,  the amino acid with a MSA index $j=124$ and which belongs to the BSs is characterized by a high degree of conservation among the 25 GSTs  studied. For more than 40\% of the 25 sequences (mainly in the class $\delta$), the amino acid is a Tyrosine (Y, hydrophobic aromatic) whereas for the others (mainly the class $\varepsilon$), it can be a conserved substitution: a Phenylalanine (F, hydrophobic aromatic) or non-conservative ones: positively (K, R) or negatively (E) charged, polar neutral (S) or hydrophobic non-aromatic (I).\\
+
+Add something about IoD selected MAS index (panel c)
 
 \begin{figure}[H]
 	\label{BS & DI Proba}
-	\center\includegraphics[width = 16cm]{figures/MSA_Proba.jpg} % BS & DI proba
+	\begin{minipage}{.99\textwidth}
+		\textbf{(a)}\\
+		\includegraphics[width=\textwidth]{figures/MSA_Proba.jpg} % BS & DI proba
+	\end{minipage}
+	\begin{minipage}{.49\linewidth}
+		\textbf{(b)}\\
+		structure 
+	\end{minipage}	
 	\begin{minipage}{.48\linewidth}
+		\textbf{(c)}\\
+		\includegraphics[width=\textwidth]{figures/amino-acid_conservation_BS_j=124.jpg}
+		\includegraphics[width=\textwidth]{figures/amino-acid_conservation_DI_j=111.jpg}
+	\end{minipage}	
+	\caption{(a) Probability for an amino acid to belong to the BSs (in red) or in the IoD (in green) as a function of the MSA index. (b) Cartoon representation of the GSTD1 structure. Amino acids belonging  to the BSs (in red) and the IoD (in green) are shown in transparent spheres. (c) Probability of conservation of a given amino acid in the binding sites (top panel) and in the IoD (bottom panel).}
+\end{figure}
+
+\section{Dynamics of GSTs from Normal Mode Analysis}
+
+From the 25 static structures of GSTs predicted from AlphaFold (Fig.~\ref{AlphaFold structures}), we first applied Normal Mode Analysis using the Anosotropic Network Model (ANM) presented in section X in order to study the local and non-local flexibility along the amino acid sequences.
+
+\subsection{Local Mean Square Fluctuations}
+
+Fig.~\ref{Local MSF D1} presents the computed local MSF $\sigma^2(\vv{R}_i)$ as a function of the sequence index $i$ for the GSTD1. We computed the local MSF for two structures of GSTD1: i) the APO structure, without ligand and predicted from AlphaFold and ii) the GSH structure, with GSH ligands bound to the GSTD1 predicted by AlphaFill (see section X). The goal here is to estimate the influence of the ligand to the local flexibility. As shown in Fig.~\ref{Local MSF D1}a, the presence of the ligand tends to decrease the local flexibility of two specific regions compared to the APO structure, \textit{i.e.} regions X ($\alpha_2$) and Y (loop between $\alpha_6$ and $\alpha_7$ helices).
+In addition, these two regions are located very close to the BSs and the IoD (Fig.~\ref{Local MSF D1}b and c). Particularly, the flexibility of the loop between $\alpha_6$ and $\alpha_7$ helices seems to play an important role for both the BSs and the IoD since several residues are located just before or just after this region. This loop may be involved in the binding and/or releasing of the ligands.
+
+\begin{figure}[h!]
+	\begin{minipage}{\linewidth}
+		\textbf{(a)}\\
+		\includegraphics[width=\textwidth]{figures/GSTD1_APO+GSH_MSF.jpg}
+	\end{minipage}
+	\begin{minipage}{.49\linewidth}
+		\textbf{(b)}\\
+		
 		\centering
-		\includegraphics[width = 8cm]{figures/amino-acid_conservation_BS_j=124.jpg}
-	\end{minipage}	
-	\begin{minipage}{.48\linewidth}
-		\includegraphics[width = 8cm]{figures/amino-acid_conservation_DI_j=111.jpg}
-	\end{minipage}	
-	\caption{Probability of a residue to be in the binding site / interface of dimerization and amino-acid conservation for the 39$^{\text{th}}$ residue of the MSA matrix that have been identified in the binding site}
-\end{figure}
-%In the present case, GSTs have usually Tyrosine amino-acids and looking at the MSA matrix, it seems to be especially the case for GSTs of class $\delta$ with any Tyrosine at $j = 124 ~$among the $\varepsilon$ class ! In a more precise way, it doesn't seems that in the $\varepsilon$ class the residues have any form of consevation for this particular index.
-\section{Structural Dynamics from Normal Mode Analysis}
-% \noindent As explained in the introduction, this present work not only cares about the informations that have been extracted from the static predictions of the AlphaFold and AlphaFill programs but also about the dynamics of the dimers. In this section we will present the next step of our methodology with the Anisotropic Network Model, starting with the parametrization.
-
-\subsection{Local mean square fluctuations}
-Figure \ref{Local MSF D1} presents the predicted Local MSF for the GSTD1 structure as well as a cartoon representation of this local fluctuation. Measured local MSF are displayed in red and predictions for the APO structure are in green. On pannel A), it apears that in $\alpha_2$ region the predicted flexibility is over estimated. On pannel B), we see that this is at the position of a kink in the secondary structure, leading to a higher flexibility. Region between $\alpha_6$ and $\alpha_7$ is also over estimated. In this case, the pearson correlation gives approximately $56\%$ of correlation.
-
-\begin{figure}[h!]
+		\includegraphics[width=.8\textwidth]{figures/GSTD1_APO_MSF.png}
+	\end{minipage}
+	\begin{minipage}{.49\linewidth}
+		\textbf{(c)}\\
+		
+		\centering
+		\includegraphics[width=.8\textwidth]{figures/GSTD1_GSH_MSF.png}
+	\end{minipage}
+	\caption{(a) Local Mean Square Fluctuations (MSF) predicted from ANM and comparison with experimental XRD data. Red and green points below represent the MAS index of amino acids belonging to the BSs and IoD, respectively. (b) Cartoon representation of the APO (unbound) GSTD1 structure. The color code corresponds to the local MSF range from 0 (blue) to 0.6~\AA$^2$ (red). (c) Cartoon representation of the GSH bound GSTD1 structure. The color code is the same as in panel b.}
 	\label{Local MSF D1}
-	\begin{minipage}{.48\linewidth}
-		A)\\
-		\includegraphics[width = 8cm]{figures/GSTD1+GSH_ANM-COM_Bfactors.jpg}
-	\end{minipage}
-	\begin{minipage}{.48\linewidth}
-		B)\\
-		\includegraphics[height = 5cm]{figures/GSTD1_ANM-COM_Bfactors_structure.png}
-	\end{minipage}
-	\caption{Local mean square flucturations predicted from ANM-COM and comparisions with XRD measurments}
 \end{figure}
 
-\noindent From the 40 structures containing the ligands, we computed the range of local MSF displayed in blue. It apears that the regions that were over estimated have now a reduced flexibility with an improved pearson correlation computed from the minimum of this range. We extended the computation of the local flexibility to the ensemble of structure and projected the flexibility on the MSA matrix. 
+Then, we compared the local MSF with the ones measured experimentally using XRD (add reference). We found that the comparison between ANM calculations and XRD data is overall in good agreement, with a Pearson correlation $\rho=0.56$ for APO and $\rho=0.64$ for the GSH bound structure of GSTD1. The main differences come from regions $33-52$ and $103-130$, as described above. In these two regions, the local flexibility predicted by ANM is slightly overestimated. However, it was even worse without the presence of the ligands, which confirms that the influence of the ligand is not negligible and should be taken into consideration for the prediction of the local flexibility of GSTs using ANM. Finally, regions $33-52$ and $103-130$ are located at the periphery of the protein surface. It means that these two regions are in interactions with solvent molecules when the protein is in its environment. The hypothesis here is that theses interactions will act as the ligand and decrease the flexibility of these two particular regions. Here, the interactions with solvent molecules are not taken into account since they are not predicted from AlphaFold. It is doable to add solvent molecules around the protein using programs such as Packmol (add reference, \bulurl{https://m3g.github.io/packmol/}). To test the hypothesis, we will include the first water shell of solvent molecule in the near future.\\
+
+We performed the exact same ANM calculations for the 25 GST structures predicted from AlphaFold. Local MSFs as a function of MSA index are presented in Fig.~\ref{MSF + MSA}. \noindent From this map, we can identify regions of conserved high flexibility. First we identify that the N and C-terminal parts are much more flexible than the rest of the structure. Second we identify regions of high flexibility for MSA indices $j=40;  41;  42$. Computing the mean of MSF over all the different structures, we computed what we called region of conseved high flexibility. Taking values of MSF for gaps as $0.0$\AA , and considering only the MSA indices that have less than $15$ gaps, we selected an ensemble of MSA indices $j = 30;  40;  41;  42;  47;  66;  85;  86; 129; 132; 133; 135; 156; 185; 228; 234; 235; 236; 237; 238$.
 
 \begin{figure}[h!]
-	\label{ANM-COM + MSA}
-	\includegraphics[width = .99\linewidth]{figures/ANM-COM+MSA_APO_MSF.jpg}
-	\caption{Local flexibility computed from APO structures and projected on MSA matrix}
+	\textbf{(a)}\\
+	\includegraphics[width = .99\linewidth]{figures/ANM-COM+MSA_GSH_MSF.jpg}\\
+	\textbf{(b)}\\
+	\includegraphics[width = 16cm]{figures/Local_MSF_key_residues.jpg}
+	\caption{\textbf{(a)} Local MSF (in \AA$^2$) computed from ANM including GSH ligands as a function of the MSA index for the ensemble of 25 GSTs. Red and green points below represent the MAS index of amino acids belonging to the BSs and IoD, respectively.\textbf{(b)} Mean over computed local MSF for the ensemble of 25 GSTs. Red dots points the conserved highly flexible residues.}
+	\label{MSF + MSA}
 \end{figure}
 
-\noindent From this map, we can identify regions of conserved high flexibility. First we identify that the terminal parts are much more flexible than the rest of the structures. Second we identify regions of conserved high flexibility between MSA indicies $40-42$. We also identify the $30^{\text{th}}$ residue and the residues $129-135$ to be highly flexible which is very specific to the $\delta$ class. Taking into account the influences of the GSHs, we computed the local rigidity induced by the presence of the ligands in the structure. This is achieved by computation of the MSFs for each GSH structure and compute $(\text{MSF}_{\text{APO}} - \text{MSF}_{\text{GSH}}) / \text{MSF}_{\text{APO}}$.
+\subsection{Non-Local Mean Square Fluctuations}
 
-\begin{figure}[h!]
-	\label{Local rigidity GSHs}
-	\includegraphics[width = 16cm]{figures/ANM-COM+MSA_GSHs_influcene_MSF.jpg}
-	\caption{Local rigidity induced by the GSHs predicted from AlphaFill}
-\end{figure}
+Figure \ref{Non-local MSF GSTD1} represents the non-local Mean Square Fluctuations (MSF) $\sigma^2 (\vv{R}_{ij})$ computed from Eq.(\ref{metric dij}) for the GSTD1 structure.  Compared to local MSF, non-local MSF correspond to the flexibility of a pair of amino acid $(i,j)$ in the sequence. As shown in X, particular patterns are observed in the non-local MSF matrix of the GSTD1, with lines being well defined corresponding to singular behavior of specific amino acids.
 
+In GSTD1, we identified the pairs of amino-acid $30;122$ that corresponds to the intersections of two lines in this matrix. As shown in figure XXX, those lines appears in every computed $\sigma^2(\vv{R}_{ij})$. In order to identify conseved pairs, computed the mean matrix also taking into account gaps as null values. From this computed matrix, we identified pairs of MSA indices $()$... 
 
-\subsection{Non-local mean square fluctuations}
-
-Figure \ref{Non-local MSF GSTD1} represents the non-local mean square fluctuations computed from the equation (\ref{}) and from the GSTD1 structure. In the associated matrix, we identifie lines of high non-local MSF. In particular, one can identify intersections between two lines. This allows to identify key pairs of high non-local MSF. In GSTD1, we identified the pairs of amino-acid $30;122$ ... 
 \begin{figure}
 	\label{Non-local MSF GSTD1}
 	\includegraphics[width = 8cm]{figures/ANM-COM+MSA_GSTD1_APO_non-local_MSF}
@@ -108,7 +147,7 @@ Figure \ref{Non-local MSF GSTD1} represents the non-local mean square fluctuatio
 
 \section{Identification of conserved key residues}
 
-From the computed local and non-local thermal MSF, we identified regions of high flexibility. From the local MSF, a value above $0.25$\AA$^2$ is associated to a high flexibility. For non-local MSF, a pair with a value above $0.025$\AA$^2$ is also considered as high flexible. We identified indicies that corresponds to these criteria and checked their amino-acid conservation among the 25 associated sequences. We did consider a high conservation when one of the amino-acid is conserved within more than $70\%$. Medium conservation corresponds to a peak conservation between $30$ and $70\%$ and low conservation correspond to a maximum bellow $30\%$.
+From the computed local and non-local thermal MSF, we identified regions of high flexibility. From figure \ref{MSF + MSA}, we computed the mean local MSF as a function of the MSA index. It allowed to identify what we called conserved high flexibility. We identified the MSA indices presented in the table bellow. In the case of GSTD1, we computed the non-local MSF and extracted the MSA indices presented bellow. We are currently working on a way to extract pairs conserved residues from the 25 different structures of GSTs.
 
 \begin{table}[h!]
 	\begin{tabular}{cp{4cm}p{5cm}p{4.5cm}}
@@ -130,8 +169,8 @@ From the computed local and non-local thermal MSF, we identified regions of high
 		                           &         & • $228$\\
 		                           &         & • $229$\\
 		\hline
-		\multirow{2}{*}{Non-local MSF} & • resi & • resi & • resi \\
-		                               & • resi & • resi & • resi \\
+		\multirow{2}{*}{Non-local MSF} & • $23$ & • $41$ & • $135$ \\
+		                               & • resi & • $133$ &  \\
 		\hline
 		\hline
 	\end{tabular}
